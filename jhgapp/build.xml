@@ -1,0 +1,20 @@
+<project name="jhgappman"  default="deploy"  basedir=".">
+  <property file="build.properties"/>
+  <property name="dist" value="./dist" />
+  <property name="dest" value="./web/WEB-INF/lib" />
+
+  <target name="init">
+    <delete dir="${dist}"/>
+    <mkdir dir="${dist}"/>
+  </target>
+  <target name="deploy" depends="init" >
+    <jar jarfile="${dest}/${module}.jar" >
+      <fileset dir="${bin.dir}" includes="**/*"/>    
+    </jar>
+    <!--
+    <copy todir="${dest}">
+      <fileset dir="${dist}"/>
+    </copy>
+    -->
+  </target>
+</project>

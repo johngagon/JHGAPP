@@ -1,0 +1,87 @@
+body
+{
+	background-color:#f0f6ff;
+	font-family:calibri,sans-serif;	
+}
+select
+{
+	//font-family:calibri,sans-serif;	
+}
+input
+{
+	//font-family:calibri,sans-serif;	
+}
+input.currency
+{
+	text-align:right;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+hr
+{
+		display: block; 
+		height: 1px;
+    border: 0; 
+    border-top: 1px solid #00f;
+    margin: 1em 0; 
+    padding: 0; 
+}
+h1
+{
+	font-family:calibri,sans-serif;
+	color:#000000;
+}
+table
+{
+	border:3px solid #006;
+	border-collapse:collapse;
+}
+tr:nth-of-type(even) 
+{ 
+	background-color: #ccf; 
+}
+tr.labelrow
+{
+  background-color: #66c; 
+  color: #fff;
+}
+th
+{
+  text-align:center;
+	border:1px solid #006;
+	border-collapse:collapse;
+	background-color: #339; 
+	color: #fff;
+}
+td
+{
+	border:1px solid #006;
+	border-collapse:collapse;
+}
+table.layout
+{
+  border:0;
+  background-color:#fff;
+  color: #000;
+}
+th.layout
+{
+  border:0;
+  background-color:#fff;
+  color: #000;
+}
+tr.layout
+{
+  border:0;
+  background-color:#fff;
+  color: #000;  
+}
+td.layout
+{
+  border:0;
+  background-color:#fff;
+  color: #000;  
+}
